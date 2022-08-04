@@ -1,7 +1,7 @@
-const express = require("express")
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose")
-var _ = require('lodash');
+// const express = require("express")
+// const bodyParser = require("body-parser");
+// const mongoose = require("mongoose")
+// var _ = require('lodash');
 
 const app = express();
 app.use(bodyParser.urlencoded({extended : true}));
